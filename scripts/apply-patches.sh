@@ -1,7 +1,14 @@
 #!/usr/bin/env bash
 #
 # Clone Ylarod/Florida (pinned) and apply its frida-core / frida-gum source
-# patches to a frida checkout. Non-applicable patches are logged, not fatal.
+# patches to a frida checkout.
+#
+# IMPORTANT: application is ATOMIC per patch. GNU patch applies hunks
+# independently by default, so a patch whose method-definition hunk fails but
+# whose call-site hunks succeed leaves the source half-edited and unbuildable
+# (this bit us on rpc.vala). We gate every real apply behind a full --dry-run:
+# only if ALL hunks apply do we write; otherwise the file is left pristine and
+# the patch is logged as skipped. Non-applicable patches never break the build.
 #
 set -uo pipefail
 
@@ -35,11 +42,17 @@ apply_dir() {
   shopt -s nullglob
   for p in "${PATCH_ROOT}/${sub}"/*.patch; do
     local name="${sub}/$(basename "${p}")"
-    if patch -p1 -d "${target}" --forward --batch -r - < "${p}" >/dev/null 2>&1; then
-      echo "APPLIED                   ${name}" >> "${REPORT}"
+    if patch -p1 -d "${target}" --forward --batch --dry-run -r - < "${p}" >/dev/null 2>&1; then
+      # All hunks apply cleanly -> safe to write for real.
+      if patch -p1 -d "${target}" --forward --batch -r - < "${p}" >/dev/null 2>&1; then
+        echo "APPLIED                   ${name}" >> "${REPORT}"
+      else
+        echo "ERROR-DURING-APPLY        ${name}" >> "${REPORT}"
+      fi
     elif patch -p1 -d "${target}" --reverse --batch --dry-run -r - < "${p}" >/dev/null 2>&1; then
       echo "SKIPPED(already-applied)  ${name}" >> "${REPORT}"
     else
+      # Do NOT write anything: leaves the tree pristine and buildable.
       echo "SKIPPED(does-not-apply)   ${name}" >> "${REPORT}"
     fi
   done
@@ -51,10 +64,10 @@ apply_dir "frida-gum"  "subprojects/frida-gum"
 
 {
   echo
-  echo "# NOTE: patches touching linux/*, droidy/*, memfd (Linux/Android code paths)"
-  echo "#       still apply to files present in the tree but have no effect on the"
-  echo "#       iOS/Darwin server. anti-anti-frida.py symbol pass is ELF-oriented and"
-  echo "#       is invoked only on the non-Darwin embed path; on iOS it is a no-op."
+  echo "# Patches touching linux/*, droidy/*, memfd (Linux/Android code paths) may"
+  echo "# apply to files present in the tree but those files are not compiled into"
+  echo "# the iOS/Darwin server. The anti-anti-frida.py symbol pass is ELF-oriented"
+  echo "# and only runs on the non-Darwin embed path; on iOS it is effectively a no-op."
 } >> "${REPORT}"
 
 echo "=== patch report ==="
