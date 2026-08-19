@@ -38,6 +38,11 @@ python3 -m pip install lief || echo "[build] lief install failed (anti-anti-frid
 export PYTHON="$(command -v python3)"
 export PYTHONWARNINGS=all
 
+# frida's build post-processes (strips + codesigns) the iOS binaries during the
+# build and requires IOS_CERTID. "-" means ad-hoc signing; combined with the
+# embedded entitlements this is what a rootless jailbreak (Dopamine) accepts.
+export IOS_CERTID="-"
+
 # --- packaging version string ------------------------------------------------
 FRIDA_VERSION="$(releng/frida_version.py 2>/dev/null || echo "${FRIDA_TAG#v}")"
 # frida_version.py may append commit distance for non-exact checkouts; keep base x.y.z
@@ -46,7 +51,7 @@ export FRIDA_VERSION
 log "FRIDA_VERSION=${FRIDA_VERSION}"
 
 # --- apply Florida anti-detect patches ---------------------------------------
-bash "${WORK}/scripts/apply-patches.sh" "${WORK}/frida" "${WORK}/patch-report.txt"
+bash "${WORK}/scripts/apply-patches.sh" "${WORK}/frida" "${WORK}/patch-report.txt" "${WORK}/patches-ios"
 
 # --- configure + build: ios-arm64e (fat arm64 + arm64e), installed assets ----
 # rootless prefix /var/jb/usr ; --host=ios-arm64e emits a fat arm64+arm64e binary.
