@@ -105,8 +105,16 @@ FRIDA_VERSION="${FRIDA_VERSION}" bash "${WORK}/tools/package-server-fruity.sh" \
   "${WORK}/dist/var/jb" \
   "${DEB}"
 
+# --- also package a roothide variant (no /var/jb, rootful layout) ------------
+DEB_ROOTHIDE="${WORK}/out/frida_${FRIDA_VERSION}_iphoneos-arm64e-roothide.deb"
+FRIDA_VERSION="${FRIDA_VERSION}" bash "${WORK}/tools/package-server-roothide.sh" \
+  "iphoneos-arm64e" \
+  "${WORK}/dist/var/jb" \
+  "${DEB_ROOTHIDE}"
+
 echo "${FRIDA_VERSION}" > "${WORK}/out/FRIDA_VERSION.txt"
-log "packaged: ${DEB}"
+log "packaged (rootless /var/jb): ${DEB}"
+log "packaged (roothide):         ${DEB_ROOTHIDE}"
 ls -la "${WORK}/out"
-dpkg-deb -I "${DEB}" || true
-dpkg-deb -c "${DEB}" || true
+echo "=== rootless deb ==="; dpkg-deb -I "${DEB}" || true; dpkg-deb -c "${DEB}" || true
+echo "=== roothide deb ==="; dpkg-deb -I "${DEB_ROOTHIDE}" || true; dpkg-deb -c "${DEB_ROOTHIDE}" || true
