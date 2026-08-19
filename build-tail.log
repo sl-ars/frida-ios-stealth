@@ -1,0 +1,1027 @@
+[0;32m[build][0m Frida version to build: 17.17.0
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida'...
+HEAD is now at 03f16b3 ci: Build and ship the softfloat Gum and agent
+Submodule 'releng' (https://github.com/frida/releng.git) registered for path 'releng'
+Submodule 'frida-clr' (https://github.com/frida/frida-clr.git) registered for path 'subprojects/frida-clr'
+Submodule 'frida-core' (https://github.com/frida/frida-core.git) registered for path 'subprojects/frida-core'
+Submodule 'frida-go' (https://github.com/frida/frida-go) registered for path 'subprojects/frida-go'
+Submodule 'frida-gum' (https://github.com/frida/frida-gum.git) registered for path 'subprojects/frida-gum'
+Submodule 'frida-node' (https://github.com/frida/frida-node.git) registered for path 'subprojects/frida-node'
+Submodule 'frida-python' (https://github.com/frida/frida-python.git) registered for path 'subprojects/frida-python'
+Submodule 'frida-qml' (https://github.com/frida/frida-qml.git) registered for path 'subprojects/frida-qml'
+Submodule 'frida-swift' (https://github.com/frida/frida-swift.git) registered for path 'subprojects/frida-swift'
+Submodule 'frida-tools' (https://github.com/frida/frida-tools.git) registered for path 'subprojects/frida-tools'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/releng'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-clr'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-core'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-go'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-node'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-python'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-qml'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-swift'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-tools'...
+From https://github.com/frida/releng
+ * branch            c9cc18138b364f691573c695e1fe47ddc4c56f26 -> FETCH_HEAD
+Submodule path 'releng': checked out 'c9cc18138b364f691573c695e1fe47ddc4c56f26'
+Submodule 'meson' (https://github.com/frida/meson.git) registered for path 'releng/meson'
+Submodule 'tomlkit' (https://github.com/python-poetry/tomlkit.git) registered for path 'releng/tomlkit'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/releng/meson'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/releng/tomlkit'...
+Submodule path 'releng/meson': checked out '6620128a0fc86218dd8d2843c7e9a3513772448e'
+From https://github.com/python-poetry/tomlkit
+ * branch            911cccd630965ff423316e25b4685ecf7df0ec0a -> FETCH_HEAD
+Submodule path 'releng/tomlkit': checked out '911cccd630965ff423316e25b4685ecf7df0ec0a'
+Submodule 'tests/toml-test' (https://github.com/BurntSushi/toml-test.git) registered for path 'releng/tomlkit/tests/toml-test'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/releng/tomlkit/tests/toml-test'...
+From https://github.com/BurntSushi/toml-test
+ * branch            27837d38aa7cc9ff385ed1316a8fef68394395dd -> FETCH_HEAD
+Submodule path 'releng/tomlkit/tests/toml-test': checked out '27837d38aa7cc9ff385ed1316a8fef68394395dd'
+From https://github.com/frida/frida-clr
+ * branch            b389ce5680870c2d231340984e0e59d7eaf847db -> FETCH_HEAD
+Submodule path 'subprojects/frida-clr': checked out 'b389ce5680870c2d231340984e0e59d7eaf847db'
+Submodule 'releng' (https://github.com/frida/releng.git) registered for path 'subprojects/frida-clr/releng'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-clr/releng'...
+From https://github.com/frida/releng
+ * branch            c9cc18138b364f691573c695e1fe47ddc4c56f26 -> FETCH_HEAD
+Submodule path 'subprojects/frida-clr/releng': checked out 'c9cc18138b364f691573c695e1fe47ddc4c56f26'
+Submodule 'meson' (https://github.com/frida/meson.git) registered for path 'subprojects/frida-clr/releng/meson'
+Submodule 'tomlkit' (https://github.com/python-poetry/tomlkit.git) registered for path 'subprojects/frida-clr/releng/tomlkit'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-clr/releng/meson'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-clr/releng/tomlkit'...
+Submodule path 'subprojects/frida-clr/releng/meson': checked out '6620128a0fc86218dd8d2843c7e9a3513772448e'
+From https://github.com/python-poetry/tomlkit
+ * branch            911cccd630965ff423316e25b4685ecf7df0ec0a -> FETCH_HEAD
+Submodule path 'subprojects/frida-clr/releng/tomlkit': checked out '911cccd630965ff423316e25b4685ecf7df0ec0a'
+Submodule 'tests/toml-test' (https://github.com/BurntSushi/toml-test.git) registered for path 'subprojects/frida-clr/releng/tomlkit/tests/toml-test'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-clr/releng/tomlkit/tests/toml-test'...
+From https://github.com/BurntSushi/toml-test
+ * branch            27837d38aa7cc9ff385ed1316a8fef68394395dd -> FETCH_HEAD
+Submodule path 'subprojects/frida-clr/releng/tomlkit/tests/toml-test': checked out '27837d38aa7cc9ff385ed1316a8fef68394395dd'
+From https://github.com/frida/frida-core
+ * branch            c812943c457376c906802f7bb79d13c67a6e4d22 -> FETCH_HEAD
+Submodule path 'subprojects/frida-core': checked out 'c812943c457376c906802f7bb79d13c67a6e4d22'
+Submodule 'releng' (https://github.com/frida/releng.git) registered for path 'subprojects/frida-core/releng'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-core/releng'...
+From https://github.com/frida/releng
+ * branch            c9cc18138b364f691573c695e1fe47ddc4c56f26 -> FETCH_HEAD
+Submodule path 'subprojects/frida-core/releng': checked out 'c9cc18138b364f691573c695e1fe47ddc4c56f26'
+Submodule 'meson' (https://github.com/frida/meson.git) registered for path 'subprojects/frida-core/releng/meson'
+Submodule 'tomlkit' (https://github.com/python-poetry/tomlkit.git) registered for path 'subprojects/frida-core/releng/tomlkit'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-core/releng/meson'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-core/releng/tomlkit'...
+Submodule path 'subprojects/frida-core/releng/meson': checked out '6620128a0fc86218dd8d2843c7e9a3513772448e'
+From https://github.com/python-poetry/tomlkit
+ * branch            911cccd630965ff423316e25b4685ecf7df0ec0a -> FETCH_HEAD
+Submodule path 'subprojects/frida-core/releng/tomlkit': checked out '911cccd630965ff423316e25b4685ecf7df0ec0a'
+Submodule 'tests/toml-test' (https://github.com/BurntSushi/toml-test.git) registered for path 'subprojects/frida-core/releng/tomlkit/tests/toml-test'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-core/releng/tomlkit/tests/toml-test'...
+From https://github.com/BurntSushi/toml-test
+ * branch            27837d38aa7cc9ff385ed1316a8fef68394395dd -> FETCH_HEAD
+Submodule path 'subprojects/frida-core/releng/tomlkit/tests/toml-test': checked out '27837d38aa7cc9ff385ed1316a8fef68394395dd'
+From https://github.com/frida/frida-go
+ * branch            fd52f64f49fbbde2820e02e6e6dd3aafd1ac0ce6 -> FETCH_HEAD
+Submodule path 'subprojects/frida-go': checked out 'fd52f64f49fbbde2820e02e6e6dd3aafd1ac0ce6'
+From https://github.com/frida/frida-gum
+ * branch            ddc10c5559cbb41a3dd72866bfba6ff3945ffa5c -> FETCH_HEAD
+Submodule path 'subprojects/frida-gum': checked out 'ddc10c5559cbb41a3dd72866bfba6ff3945ffa5c'
+Submodule 'releng' (https://github.com/frida/releng.git) registered for path 'subprojects/frida-gum/releng'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/releng'...
+From https://github.com/frida/releng
+ * branch            c9cc18138b364f691573c695e1fe47ddc4c56f26 -> FETCH_HEAD
+Submodule path 'subprojects/frida-gum/releng': checked out 'c9cc18138b364f691573c695e1fe47ddc4c56f26'
+Submodule 'meson' (https://github.com/frida/meson.git) registered for path 'subprojects/frida-gum/releng/meson'
+Submodule 'tomlkit' (https://github.com/python-poetry/tomlkit.git) registered for path 'subprojects/frida-gum/releng/tomlkit'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/releng/meson'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/releng/tomlkit'...
+Submodule path 'subprojects/frida-gum/releng/meson': checked out '6620128a0fc86218dd8d2843c7e9a3513772448e'
+From https://github.com/python-poetry/tomlkit
+ * branch            911cccd630965ff423316e25b4685ecf7df0ec0a -> FETCH_HEAD
+Submodule path 'subprojects/frida-gum/releng/tomlkit': checked out '911cccd630965ff423316e25b4685ecf7df0ec0a'
+Submodule 'tests/toml-test' (https://github.com/BurntSushi/toml-test.git) registered for path 'subprojects/frida-gum/releng/tomlkit/tests/toml-test'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/releng/tomlkit/tests/toml-test'...
+From https://github.com/BurntSushi/toml-test
+ * branch            27837d38aa7cc9ff385ed1316a8fef68394395dd -> FETCH_HEAD
+Submodule path 'subprojects/frida-gum/releng/tomlkit/tests/toml-test': checked out '27837d38aa7cc9ff385ed1316a8fef68394395dd'
+From https://github.com/frida/frida-node
+ * branch            c799cca49d9664e0b6e406c9eb2c1be35e716a87 -> FETCH_HEAD
+Submodule path 'subprojects/frida-node': checked out 'c799cca49d9664e0b6e406c9eb2c1be35e716a87'
+Submodule 'frida-bindgen' (https://github.com/frida/frida-bindgen.git) registered for path 'subprojects/frida-node/frida-bindgen'
+Submodule 'releng' (https://github.com/frida/releng.git) registered for path 'subprojects/frida-node/releng'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-node/frida-bindgen'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-node/releng'...
+Submodule path 'subprojects/frida-node/frida-bindgen': checked out 'df17879d92d2700a7f1228a03271ba07e2fb579b'
+From https://github.com/frida/releng
+ * branch            c9cc18138b364f691573c695e1fe47ddc4c56f26 -> FETCH_HEAD
+Submodule path 'subprojects/frida-node/releng': checked out 'c9cc18138b364f691573c695e1fe47ddc4c56f26'
+Submodule 'meson' (https://github.com/frida/meson.git) registered for path 'subprojects/frida-node/releng/meson'
+Submodule 'tomlkit' (https://github.com/python-poetry/tomlkit.git) registered for path 'subprojects/frida-node/releng/tomlkit'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-node/releng/meson'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-node/releng/tomlkit'...
+Submodule path 'subprojects/frida-node/releng/meson': checked out '6620128a0fc86218dd8d2843c7e9a3513772448e'
+From https://github.com/python-poetry/tomlkit
+ * branch            911cccd630965ff423316e25b4685ecf7df0ec0a -> FETCH_HEAD
+Submodule path 'subprojects/frida-node/releng/tomlkit': checked out '911cccd630965ff423316e25b4685ecf7df0ec0a'
+Submodule 'tests/toml-test' (https://github.com/BurntSushi/toml-test.git) registered for path 'subprojects/frida-node/releng/tomlkit/tests/toml-test'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-node/releng/tomlkit/tests/toml-test'...
+From https://github.com/BurntSushi/toml-test
+ * branch            27837d38aa7cc9ff385ed1316a8fef68394395dd -> FETCH_HEAD
+Submodule path 'subprojects/frida-node/releng/tomlkit/tests/toml-test': checked out '27837d38aa7cc9ff385ed1316a8fef68394395dd'
+From https://github.com/frida/frida-python
+ * branch            1cc0bcae641053fc08ec4433dc2118973389b5d2 -> FETCH_HEAD
+Submodule path 'subprojects/frida-python': checked out '1cc0bcae641053fc08ec4433dc2118973389b5d2'
+Submodule 'frida-bindgen' (https://github.com/frida/frida-bindgen.git) registered for path 'subprojects/frida-python/frida-bindgen'
+Submodule 'releng' (https://github.com/frida/releng.git) registered for path 'subprojects/frida-python/releng'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-python/frida-bindgen'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-python/releng'...
+Submodule path 'subprojects/frida-python/frida-bindgen': checked out 'df17879d92d2700a7f1228a03271ba07e2fb579b'
+From https://github.com/frida/releng
+ * branch            c9cc18138b364f691573c695e1fe47ddc4c56f26 -> FETCH_HEAD
+Submodule path 'subprojects/frida-python/releng': checked out 'c9cc18138b364f691573c695e1fe47ddc4c56f26'
+Submodule 'meson' (https://github.com/frida/meson.git) registered for path 'subprojects/frida-python/releng/meson'
+Submodule 'tomlkit' (https://github.com/python-poetry/tomlkit.git) registered for path 'subprojects/frida-python/releng/tomlkit'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-python/releng/meson'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-python/releng/tomlkit'...
+Submodule path 'subprojects/frida-python/releng/meson': checked out '6620128a0fc86218dd8d2843c7e9a3513772448e'
+From https://github.com/python-poetry/tomlkit
+ * branch            911cccd630965ff423316e25b4685ecf7df0ec0a -> FETCH_HEAD
+Submodule path 'subprojects/frida-python/releng/tomlkit': checked out '911cccd630965ff423316e25b4685ecf7df0ec0a'
+Submodule 'tests/toml-test' (https://github.com/BurntSushi/toml-test.git) registered for path 'subprojects/frida-python/releng/tomlkit/tests/toml-test'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-python/releng/tomlkit/tests/toml-test'...
+From https://github.com/BurntSushi/toml-test
+ * branch            27837d38aa7cc9ff385ed1316a8fef68394395dd -> FETCH_HEAD
+Submodule path 'subprojects/frida-python/releng/tomlkit/tests/toml-test': checked out '27837d38aa7cc9ff385ed1316a8fef68394395dd'
+From https://github.com/frida/frida-qml
+ * branch            b840fe6023005d6691292b98ab599d1d60bfaf4b -> FETCH_HEAD
+Submodule path 'subprojects/frida-qml': checked out 'b840fe6023005d6691292b98ab599d1d60bfaf4b'
+Submodule 'releng' (https://github.com/frida/releng.git) registered for path 'subprojects/frida-qml/releng'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-qml/releng'...
+From https://github.com/frida/releng
+ * branch            c9cc18138b364f691573c695e1fe47ddc4c56f26 -> FETCH_HEAD
+Submodule path 'subprojects/frida-qml/releng': checked out 'c9cc18138b364f691573c695e1fe47ddc4c56f26'
+Submodule 'meson' (https://github.com/frida/meson.git) registered for path 'subprojects/frida-qml/releng/meson'
+Submodule 'tomlkit' (https://github.com/python-poetry/tomlkit.git) registered for path 'subprojects/frida-qml/releng/tomlkit'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-qml/releng/meson'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-qml/releng/tomlkit'...
+Submodule path 'subprojects/frida-qml/releng/meson': checked out '6620128a0fc86218dd8d2843c7e9a3513772448e'
+From https://github.com/python-poetry/tomlkit
+ * branch            911cccd630965ff423316e25b4685ecf7df0ec0a -> FETCH_HEAD
+Submodule path 'subprojects/frida-qml/releng/tomlkit': checked out '911cccd630965ff423316e25b4685ecf7df0ec0a'
+Submodule 'tests/toml-test' (https://github.com/BurntSushi/toml-test.git) registered for path 'subprojects/frida-qml/releng/tomlkit/tests/toml-test'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-qml/releng/tomlkit/tests/toml-test'...
+From https://github.com/BurntSushi/toml-test
+ * branch            27837d38aa7cc9ff385ed1316a8fef68394395dd -> FETCH_HEAD
+Submodule path 'subprojects/frida-qml/releng/tomlkit/tests/toml-test': checked out '27837d38aa7cc9ff385ed1316a8fef68394395dd'
+From https://github.com/frida/frida-swift
+ * branch            35ccb184b4fce493a43de887af686dbbb197dd8b -> FETCH_HEAD
+Submodule path 'subprojects/frida-swift': checked out '35ccb184b4fce493a43de887af686dbbb197dd8b'
+Submodule 'frida-bindgen' (https://github.com/frida/frida-bindgen.git) registered for path 'subprojects/frida-swift/frida-bindgen'
+Submodule 'releng' (https://github.com/frida/releng.git) registered for path 'subprojects/frida-swift/releng'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-swift/frida-bindgen'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-swift/releng'...
+Submodule path 'subprojects/frida-swift/frida-bindgen': checked out 'df17879d92d2700a7f1228a03271ba07e2fb579b'
+From https://github.com/frida/releng
+ * branch            c9cc18138b364f691573c695e1fe47ddc4c56f26 -> FETCH_HEAD
+Submodule path 'subprojects/frida-swift/releng': checked out 'c9cc18138b364f691573c695e1fe47ddc4c56f26'
+Submodule 'meson' (https://github.com/frida/meson.git) registered for path 'subprojects/frida-swift/releng/meson'
+Submodule 'tomlkit' (https://github.com/python-poetry/tomlkit.git) registered for path 'subprojects/frida-swift/releng/tomlkit'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-swift/releng/meson'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-swift/releng/tomlkit'...
+Submodule path 'subprojects/frida-swift/releng/meson': checked out '6620128a0fc86218dd8d2843c7e9a3513772448e'
+From https://github.com/python-poetry/tomlkit
+ * branch            911cccd630965ff423316e25b4685ecf7df0ec0a -> FETCH_HEAD
+Submodule path 'subprojects/frida-swift/releng/tomlkit': checked out '911cccd630965ff423316e25b4685ecf7df0ec0a'
+Submodule 'tests/toml-test' (https://github.com/BurntSushi/toml-test.git) registered for path 'subprojects/frida-swift/releng/tomlkit/tests/toml-test'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-swift/releng/tomlkit/tests/toml-test'...
+From https://github.com/BurntSushi/toml-test
+ * branch            27837d38aa7cc9ff385ed1316a8fef68394395dd -> FETCH_HEAD
+Submodule path 'subprojects/frida-swift/releng/tomlkit/tests/toml-test': checked out '27837d38aa7cc9ff385ed1316a8fef68394395dd'
+From https://github.com/frida/frida-tools
+ * branch            5df04ddf3b772da8851964c6067e824cf95c83f2 -> FETCH_HEAD
+Submodule path 'subprojects/frida-tools': checked out '5df04ddf3b772da8851964c6067e824cf95c83f2'
+Submodule 'releng' (https://github.com/frida/releng.git) registered for path 'subprojects/frida-tools/releng'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-tools/releng'...
+From https://github.com/frida/releng
+ * branch            c9cc18138b364f691573c695e1fe47ddc4c56f26 -> FETCH_HEAD
+Submodule path 'subprojects/frida-tools/releng': checked out 'c9cc18138b364f691573c695e1fe47ddc4c56f26'
+Submodule 'meson' (https://github.com/frida/meson.git) registered for path 'subprojects/frida-tools/releng/meson'
+Submodule 'tomlkit' (https://github.com/python-poetry/tomlkit.git) registered for path 'subprojects/frida-tools/releng/tomlkit'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-tools/releng/meson'...
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-tools/releng/tomlkit'...
+Submodule path 'subprojects/frida-tools/releng/meson': checked out '6620128a0fc86218dd8d2843c7e9a3513772448e'
+From https://github.com/python-poetry/tomlkit
+ * branch            911cccd630965ff423316e25b4685ecf7df0ec0a -> FETCH_HEAD
+Submodule path 'subprojects/frida-tools/releng/tomlkit': checked out '911cccd630965ff423316e25b4685ecf7df0ec0a'
+Submodule 'tests/toml-test' (https://github.com/BurntSushi/toml-test.git) registered for path 'subprojects/frida-tools/releng/tomlkit/tests/toml-test'
+Cloning into '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-tools/releng/tomlkit/tests/toml-test'...
+From https://github.com/BurntSushi/toml-test
+ * branch            27837d38aa7cc9ff385ed1316a8fef68394395dd -> FETCH_HEAD
+Submodule path 'subprojects/frida-tools/releng/tomlkit/tests/toml-test': checked out '27837d38aa7cc9ff385ed1316a8fef68394395dd'
+Requirement already satisfied: pip in ./.venv/lib/python3.14/site-packages (26.1.2)
+Collecting pip
+  Downloading pip-26.2.1-py3-none-any.whl.metadata (4.6 kB)
+Collecting setuptools
+  Downloading setuptools-84.0.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting wheel
+  Downloading wheel-0.48.0-py3-none-any.whl.metadata (2.3 kB)
+Collecting packaging>=24.0 (from wheel)
+  Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Downloading pip-26.2.1-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 179.6 MB/s  0:00:00
+Downloading setuptools-84.0.0-py3-none-any.whl (818 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 818.2/818.2 kB 151.2 MB/s  0:00:00
+Downloading wheel-0.48.0-py3-none-any.whl (33 kB)
+Downloading packaging-26.3-py3-none-any.whl (129 kB)
+Installing collected packages: setuptools, pip, packaging, wheel
+  Attempting uninstall: pip
+    Found existing installation: pip 26.1.2
+    Uninstalling pip-26.1.2:
+      Successfully uninstalled pip-26.1.2
+
+Successfully installed packaging-26.3 pip-26.2.1 setuptools-84.0.0 wheel-0.48.0
+Collecting lief
+  Downloading lief-1.0.0-cp312-abi3-macosx_11_0_arm64.whl.metadata (2.4 kB)
+Downloading lief-1.0.0-cp312-abi3-macosx_11_0_arm64.whl (3.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 93.6 MB/s  0:00:00
+Installing collected packages: lief
+Successfully installed lief-1.0.0
+[0;32m[build][0m FRIDA_VERSION=17.17.0
+=== patch report ===
+# patch report  (frida root: /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida)
+# Florida pinned: 6d4b2e88ebe2bace12322db93470b0e68d4240c9
+
+SKIPPED(does-not-apply)   [florida] frida-core/0001-Florida-string_frida_rpc.patch
+APPLIED                   [florida] frida-core/0002-Florida-frida_agent_so.patch
+SKIPPED(does-not-apply)   [florida] frida-core/0003-Florida-symbol_frida_agent_main.patch
+SKIPPED(does-not-apply)   [florida] frida-core/0004-Florida-thread_gum_js_loop.patch
+SKIPPED(does-not-apply)   [florida] frida-core/0005-Florida-thread_gmain.patch
+APPLIED                   [florida] frida-core/0006-Florida-protocol_unexpected_command.patch
+SKIPPED(does-not-apply)   [florida] frida-core/0007-Florida-update-python-script.patch
+APPLIED                   [florida] frida-core/0008-Florida-pool-frida.patch
+APPLIED                   [florida] frida-core/0009-Florida-memfd-name-jit-cache.patch
+APPLIED                   [florida] frida-core/0010-exec-anti-anti-frida.py.patch
+APPLIED                   [florida] frida-gum/0001-Florida-pool-frida.patch
+APPLIED                   [ios] frida-core/0001-ios-rpc-string-obfuscation.patch
+
+# Patches touching linux/*, droidy/*, memfd (Linux/Android code paths) may
+# apply to files present in the tree but those files are not compiled into
+# the iOS/Darwin server. The anti-anti-frida.py symbol pass is ELF-oriented
+# and only runs on the non-Darwin embed path; on iOS it is effectively a no-op.
+# [ios] patches are re-derived for the current frida and carry the real
+# iOS-relevant anti-detect edits (e.g. rpc-string obfuscation).
+[0;32m[build][0m configuring (host=ios-arm64e, prefix=/var/jb/usr)
+Downloading toolchain 20260717...
+Extracting toolchain...
+Downloading SDK 20260717 for macos-arm64...
+Extracting SDK...
+Downloading SDK 20260717 for ios-arm64e...
+Extracting SDK...
+The Meson build system
+Version: 1.4.99
+Source dir: /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida
+Build dir: /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build
+Build type: cross build
+Project name: frida
+Project version: 17.17.0
+C compiler for the host machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64e-apple-ios8.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk (clang 15.0.0 "Apple clang version 15.0.0 (clang-1500.3.9.4)")
+C linker for the host machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64e-apple-ios8.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk ld64 1053.12
+C compiler for the build machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-macos11.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk (clang 15.0.0 "Apple clang version 15.0.0 (clang-1500.3.9.4)")
+C linker for the build machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-macos11.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk ld64 1053.12
+Build machine cpu family: aarch64
+Build machine cpu: aarch64
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Target machine cpu family: aarch64
+Target machine cpu: aarch64
+Program python3 found: YES (/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/.venv/bin/python3)
+
+Executing subproject frida-gum for machine: host 
+
+frida-gum| Program python3 found: YES (/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/.venv/bin/python3)
+frida-gum| Project name: frida-gum
+frida-gum| Project version: 0.0.0
+frida-gum| C compiler for the host machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64e-apple-ios8.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk (clang 15.0.0 "Apple clang version 15.0.0 (clang-1500.3.9.4)")
+frida-gum| C linker for the host machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64e-apple-ios8.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk ld64 1053.12
+frida-gum| C++ compiler for the host machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64e-apple-ios8.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk (clang 15.0.0 "Apple clang version 15.0.0 (clang-1500.3.9.4)")
+frida-gum| C++ linker for the host machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64e-apple-ios8.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk ld64 1053.12
+frida-gum| C compiler for the build machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-macos11.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk (clang 15.0.0 "Apple clang version 15.0.0 (clang-1500.3.9.4)")
+frida-gum| C linker for the build machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-macos11.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk ld64 1053.12
+frida-gum| C++ compiler for the build machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos11.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk (clang 15.0.0 "Apple clang version 15.0.0 (clang-1500.3.9.4)")
+frida-gum| C++ linker for the build machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos11.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk ld64 1053.12
+frida-gum| Program python3 found: YES (/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/.venv/bin/python3)
+frida-gum| Objective-C compiler for the host machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64e-apple-ios8.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk (clang 15.0.0)
+frida-gum| Objective-C linker for the host machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64e-apple-ios8.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk ld64 1053.12
+frida-gum| Objective-C++ compiler for the host machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64e-apple-ios8.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk (clang 15.0.0)
+frida-gum| Objective-C++ linker for the host machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64e-apple-ios8.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk ld64 1053.12
+frida-gum| Checking if "pointer authentication" compiles: YES
+frida-gum| Checking for size of "void *" : 8
+frida-gum| Has header "elf.h" : NO
+frida-gum| Has header "link.h" : NO
+frida-gum| Has header "stdint.h" : YES
+frida-gum| Has header "sys/auxv.h" : NO
+frida-gum| Has header "sys/elf.h" : NO
+frida-gum| Has header "asm/ptrace.h" : NO
+frida-gum| Has header "sys/user.h" : NO
+frida-gum| Checking if "asm/prctl.h is available" compiles: NO
+frida-gum| Checking for function "madvise" : YES
+frida-gum| Checking for function "posix_madvise" : YES
+frida-gum| Checking for function "posix_spawnattr_init" : YES
+frida-gum| Checking for type "long double" : YES
+frida-gum| Checking for type "long long int" : YES
+frida-gum| Checking for type "unsigned long long int" : YES
+frida-gum| Checking whether type "struct mallinfo" has member "arena" : NO
+frida-gum| Checking if "toolchain supports the pack pragma" compiles: YES
+frida-gum| Checking if "toolchain supports __sync_lock_test_and_set()" compiles: YES
+frida-gum| Checking if "toolchain supports __builtin___clear_cache()" compiles: YES
+frida-gum| Checking if "toolchain supports __builtin_c[lt]z*()" compiles: YES
+frida-gum| Checking if "toolchain supports __builtin_popcount()" compiles: YES
+frida-gum| Run-time dependency threads found: YES
+frida-gum| Found pkg-config: YES (/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/frida-pkg-config-ios-arm64e.py) 0.29.2
+frida-gum| Run-time dependency libffi found: YES 3.4.4
+frida-gum| Run-time dependency glib-2.0 found: YES 2.75.0
+frida-gum| Run-time dependency gobject-2.0 found: YES 2.75.0
+frida-gum| Run-time dependency gio-2.0 found: YES 2.75.0
+frida-gum| Run-time dependency gio-unix-2.0 found: YES 2.75.0
+frida-gum| Found pkg-config: YES (/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/frida-pkg-config-macos-arm64.py) 2.5.1
+frida-gum| Build-time dependency glib-2.0 found: YES 2.75.0
+frida-gum| Checking for function "g_thread_set_callbacks" with dependency glib-2.0: YES
+frida-gum| Build-time dependency gio-2.0 found: YES 2.75.0
+frida-gum| Run-time dependency capstone found: YES 5.0.1
+frida-gum| Checking for function "cs_arch_register_x86" with dependency capstone: YES
+frida-gum| Run-time dependency liblzma found: YES 5.2.7
+frida-gum| Checking if "compiling with shared GLib" with dependency glib-2.0 compiles: NO
+frida-gum| Checking for function "g_thread_set_callbacks" with dependency glib-2.0: YES
+frida-gum| Checking for function "ffi_set_mem_callbacks" with dependency libffi: YES
+frida-gum| Checking for function "pthread_attr_getstack" with dependency threads: YES
+frida-gum| Checking for function "pthread_setname_np" with dependency threads: YES
+frida-gum| Run-time dependency openssl found: YES 3.0.12
+frida-gum| Run-time dependency gioopenssl found: YES 2.74.0
+frida-gum| Run-time dependency json-glib-1.0 found: YES 1.10.7
+frida-gum| Run-time dependency libsoup-3.0 found: YES 3.3.0
+frida-gum| Run-time dependency quickjs found: YES 2024-01-13-frida
+frida-gum| Build-time dependency quickjs found: YES 2024-01-13-frida
+frida-gum| Run-time dependency v8-10.0 found: YES 10.9.42
+frida-gum| Run-time dependency libtcc found: YES 0.9.27-frida
+frida-gum| Run-time dependency sqlite3 found: YES 3.39.4
+frida-gum| Configuring config.h using configuration
+frida-gum| Fetching value of define "__ARM_FP" : 0xE
+frida-gum| Build targets in project: 10
+frida-gum| Subproject frida-gum finished.
+
+
+Executing subproject frida-core for machine: host 
+
+frida-core| Program python3 found: YES (/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/.venv/bin/python3)
+frida-core| Project name: frida-core
+frida-core| Project version: 0.0.0
+frida-core| C compiler for the host machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64e-apple-ios8.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk (clang 15.0.0 "Apple clang version 15.0.0 (clang-1500.3.9.4)")
+frida-core| C linker for the host machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64e-apple-ios8.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk ld64 1053.12
+frida-core| C++ compiler for the host machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64e-apple-ios8.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk (clang 15.0.0 "Apple clang version 15.0.0 (clang-1500.3.9.4)")
+frida-core| C++ linker for the host machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64e-apple-ios8.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk ld64 1053.12
+frida-core| Vala compiler for the host machine: /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/toolchain-macos-arm64/bin/valac-0.58 --vapidir=/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/toolchain-macos-arm64/share/vala-0.58/vapi --pkg-config=/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/.venv/bin/python3 /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/frida-pkg-config-ios-arm64e.py (valac 0.58.0-frida)
+frida-core| C compiler for the build machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-macos11.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk (clang 15.0.0 "Apple clang version 15.0.0 (clang-1500.3.9.4)")
+frida-core| C linker for the build machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-macos11.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk ld64 1053.12
+frida-core| C++ compiler for the build machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos11.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk (clang 15.0.0 "Apple clang version 15.0.0 (clang-1500.3.9.4)")
+frida-core| C++ linker for the build machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos11.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk ld64 1053.12
+frida-core| Vala compiler for the build machine: /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/toolchain-macos-arm64/bin/valac-0.58 --vapidir=/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/toolchain-macos-arm64/share/vala-0.58/vapi --pkg-config=/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/.venv/bin/python3 /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/frida-pkg-config-macos-arm64.py (valac 0.58.0-frida)
+frida-core| Checking for size of "void *" : 8
+frida-core| Objective-C compiler for the host machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64e-apple-ios8.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk (clang 15.0.0)
+frida-core| Objective-C linker for the host machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64e-apple-ios8.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk ld64 1053.12
+frida-core| Objective-C++ compiler for the host machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64e-apple-ios8.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk (clang 15.0.0)
+frida-core| Objective-C++ linker for the host machine: /Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64e-apple-ios8.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk ld64 1053.12
+frida-core| Program python3 found: YES (/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/.venv/bin/python3)
+frida-core| Checking if "pointer authentication" compiles: YES (cached)
+frida-core| Has header "locale.h" : YES
+frida-core| Has header "xlocale.h" : YES
+frida-core| Has header "sys/user.h" : NO (cached)
+frida-core| Dependency glib-2.0 for host machine found: YES 2.75.0 (cached)
+frida-core| Checking if "compiling with shared GLib" with dependency glib-2.0 compiles: NO (cached)
+frida-core| Checking for function "g_thread_set_callbacks" with dependency glib-2.0: YES (cached)
+frida-core| Dependency frida-gum-1.0 for host machine found: YES 0.0.0 (overridden)
+frida-core| Dependency frida-gumjs-1.0 for host machine found: YES 0.0.0 (overridden)
+frida-core| Dependency frida-gumjs-inspector-1.0 for host machine found: YES 0.0.0 (overridden)
+frida-core| Dependency gobject-2.0 for host machine found: YES 2.75.0 (cached)
+frida-core| Run-time dependency gmodule-2.0 found: YES 2.75.0
+frida-core| Dependency gio-2.0 for host machine found: YES 2.75.0 (cached)
+frida-core| Run-time dependency gee-0.8 found: YES 0.20.6
+frida-core| Dependency json-glib-1.0 for host machine found: YES 1.10.7 (cached)
+frida-core| Dependency libsoup-3.0 for host machine found: YES 3.3.0 (cached)
+frida-core| Checking for function "soup_websocket_connection_pause_input" with dependency libsoup-3.0: NO
+frida-core| Run-time dependency libbrotlidec found: YES 1.0.9
+frida-core| Dependency capstone for host machine found: YES 5.0.1 (cached)
+frida-core| Checking for function "cs_arch_register_x86" with dependency capstone: YES (cached)
+frida-core| Dependency quickjs for host machine found: YES 2024-01-13-frida (cached)
+frida-core| Run-time dependency lzfse found: YES 1.0
+frida-core| Dependency glib-2.0 for build machine found: YES 2.75.0 (cached)
+frida-core| Dependency gio-2.0 for build machine found: YES 2.75.0 (cached)
+frida-core| Build-time dependency gee-0.8 found: YES 0.20.6
+frida-core| Build-time dependency libbrotlienc found: YES 1.0.9
+frida-core| Dependency gio-unix-2.0 for host machine found: YES 2.75.0 (cached)
+frida-core| Program ar found: YES
+frida-core| Program nm found: YES
+frida-core| Program ranlib found: YES
+frida-core| Program strip found: YES
+frida-core| Program otool found: YES
+frida-core| Program libtool found: YES
+frida-core| Program install_name_tool found: YES
+frida-core| Program lipo found: YES
+frida-core| Program codesign found: YES
+frida-core| Program go found: NO
+frida-core| subprojects/frida-core/meson.build:600: WARNING: Building without Compiler backend: Go >= 1.24 not found
+frida-core| Program node found: YES 22.23.1 22.23.1 (/opt/homebrew/bin/node)
+frida-core| Program npm found: YES (/opt/homebrew/bin/npm)
+frida-core| Found CMake: NO
+frida-core| Run-time dependency gobject-introspection-1.0 found: NO (tried pkgconfig, framework and cmake)
+frida-core| Dependency openssl for host machine found: YES 3.0.12 (cached)
+frida-core| Checking if "Apple TLS backend deployment target" compiles: NO
+frida-core| Dependency gioopenssl for host machine found: YES 2.74.0 (cached)
+frida-core| Run-time dependency nice found: YES 0.1.19.1
+frida-core| Run-time dependency usrsctp found: YES 0.9.5.0
+frida-core| Configuring config.h using configuration
+frida-core| Program g-ir-compiler found: NO
+frida-core| Run-time dependency appleframeworks found: YES (CoreFoundation)
+frida-core| Build targets in project: 44
+frida-core| Subproject frida-core finished.
+
+Build targets in project: 44
+
+frida-core 0.0.0
+
+  Backends
+    local       : YES
+    simmy       : NO
+    fruity      : NO
+    droidy      : NO
+    socket      : YES
+    barebone    : NO
+    compiler    : NO
+
+  Features
+    compat      : enabled by default for ios-arm64e
+    assets      : installed
+    mapper      : YES
+    connectivity: YES
+    gadget      : YES
+    server      : YES
+    portal      : NO
+    inject      : YES
+    tests       : NO
+
+frida 17.17.0
+
+  Subprojects (for host machine)
+    frida-core       : YES 1 warnings
+    frida-gum        : YES
+
+  User defined options
+    Cross files      : /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/frida-ios-arm64e.txt
+    Native files     : /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/frida-macos-arm64.txt
+    default_library  : static
+    optimization     : s
+    prefix           : /var/jb/usr
+    strip            : true
+    b_ndebug         : true
+    frida-core:assets: installed
+
+Found ninja-1.11.1 at /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/toolchain-macos-arm64/bin/ninja
+[0;32m[build][0m building with -j4
+[1/314] Generating subprojects/frida-gum/bindings/gumjs/gumjs-generated-bindings with a custom command
+[2/314] Generating GObject enum file subprojects/frida-gum/gum/gumenumtypes.h (wrapped by meson to capture output)
+[3/314] Compiling C object subprojects/frida-gum/bindings/gumjs/quickcompile.p/gumquickcompile.c.o
+[4/314] Compiling Vala source ../subprojects/frida-core/tools/resource-compiler.vala
+[5/314] Generating GObject enum file subprojects/frida-gum/gum/gumenumtypes.c (wrapped by meson to capture output)
+[6/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumapiresolver.c.o
+[7/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/meson-generated_.._gumenumtypes.c.o
+[8/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumbacktracer.c.o
+[9/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gum.c.o
+[10/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumcloak.c.o
+[11/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumcontrolflowgraph.c.o
+[12/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumcodesegment.c.o
+[13/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumcodeallocator.c.o
+[14/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumdarwingrafter.c.o
+[15/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumdarwinmodule.c.o
+[16/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumexceptor.c.o
+[17/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumelfmodule.c.o
+[18/314] Compiling Vala source ../subprojects/frida-core/lib/base/asset-location.vala ../subprojects/frida-core/lib/base/session.vala ../subprojects/frida-core/lib/base/channel.vala ../subprojects/frida-core/lib/base/service.vala ../subprojects/frida-core/lib/base/stream.vala ../subprojects/frida-core/lib/base/rpc.vala ../subprojects/frida-core/lib/base/p2p.vala ../subprojects/frida-core/lib/base/dbus.vala ../subprojects/frida-core/lib/base/promise.vala ../subprojects/frida-core/lib/base/fs.vala ../subprojects/frida-core/lib/base/socket.vala ../subprojects/frida-core/lib/base/buffer.vala ../subprojects/frida-core/lib/base/value.vala ../subprojects/frida-core/lib/base/xnu-syscalls/xnu-syscalls.vala ../subprojects/frida-core/lib/base/posix.vala ../subprojects/frida-core/lib/base/corefoundation.vala
+[19/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumheapapi.c.o
+[20/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumeventsink.c.o
+[21/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumunwindbroker.c.o
+[22/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumkernel.c.o
+[23/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/guminvocationcontext.c.o
+[24/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/guminvocationlistener.c.o
+[25/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumleb.c.o
+[26/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumlibc.c.o
+[27/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gummemoryaccessmonitor.c.o
+[28/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gummemorymap.c.o
+[29/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gummetalarray.c.o
+[30/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gummetalhash.c.o
+[31/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/guminterceptor.c.o
+[32/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gummoduleapiresolver.c.o
+[33/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gummodulemap.c.o
+[34/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumprocess.c.o
+[35/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumthreadregistry.c.o
+[36/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gummodule.c.o
+[37/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumprintf.c.o
+[38/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gummodulefacade.c.o
+[39/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gummoduleregistry.c.o
+[40/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumreturnaddress.c.o
+[41/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumspinlock.c.o
+[42/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumsymbolutil.c.o
+[43/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumstalker.c.o
+[44/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gumswiftapiresolver.c.o
+[45/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/arch-x86_gumx86relocator.c.o
+[46/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/arch-x86_gumx86reader.c.o
+[47/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/arch-arm_gumarmwriter.c.o
+[48/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/arch-arm_gumarmrelocator.c.o
+[49/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/arch-x86_gumx86writer.c.o
+[50/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/arch-arm_gumarmreg.c.o
+[51/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/arch-arm_gumthumbrelocator.c.o
+[52/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/gummemory.c.o
+[53/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/arch-arm_gumthumbwriter.c.o
+[54/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/arch-arm64_gumarm64relocator.c.o
+[55/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/arch-mips_gummipswriter.c.o
+[56/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/arch-mips_gummipsrelocator.c.o
+[57/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-posix_gummemoryaccessmonitor-posix.c.o
+[58/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-darwin_gumobjcdisposeclasspairmonitor.c.o
+[59/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-darwin_gumdarwinbacktracer.c.o
+[60/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/arch-arm64_gumarm64writer.c.o
+[61/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-darwin_gumobjcapiresolver.c.o
+[62/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-darwin_gumsymbolutil-darwin.c.o
+[63/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-darwin_gumtls-darwin.c.o
+[64/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-darwin_gumkernel-darwin.c.o
+[65/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-darwin_gummemory-darwin.c.o
+[66/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-darwin_gumdarwinsymbolicator.c.o
+[67/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-darwin_gumthreadregistry-darwin.c.o
+[68/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-darwin_gummodule-darwin.c.o
+[69/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-darwin_gummoduleregistry-darwin.c.o
+[70/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-posix_gumexceptor-posix.c.o
+[71/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-darwin_gumunwindbroker-darwin.c.o
+[72/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-posix_gumexceptor-arm64e.S.o
+[73/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-darwin_gumdarwinmoduleresolver.c.o
+[74/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-darwin_substratedclient.c.o
+[75/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-darwin_gumprocess-darwin.c.o
+[76/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/arch-arm64_gumarm64backtracer.c.o
+[77/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/arch-arm64_gumarm64reader.c.o
+[78/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-darwin_gumdarwinmapper.c.o
+[79/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-arm64_gumcpucontext-arm64.c.o
+[80/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-darwin_gumcodesegment-darwin.c.o
+[81/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-arm64_guminterceptor-arm64-glue.S.o
+[82/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-arm64_gumprocess-arm64.c.o
+[83/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-arm64_gumstalker-arm64-glue.S.o
+[84/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-arm64_memcpy-advsimd.S.o
+[85/314] Compiling C object subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a.p/gumallocationblock.c.o
+[86/314] Compiling C object subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a.p/gumallocationgroup.c.o
+[87/314] Compiling C object subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a.p/gumallocationtracker.c.o
+[88/314] Compiling C object subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a.p/gumallocatorprobe.c.o
+[89/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-arm64_guminterceptor-arm64.c.o
+[90/314] Compiling C object subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a.p/gumcobject.c.o
+[91/314] Compiling C object subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a.p/gumboundschecker.c.o
+[92/314] Compiling C object subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a.p/gumcobjecttracker.c.o
+[93/314] Compiling C object subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a.p/guminstancetracker.c.o
+[94/314] Compiling C object subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a.p/gumpagepool.c.o
+[95/314] Compiling C object subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a.p/gumsanitychecker.c.o
+[96/314] Compiling C object subprojects/frida-gum/libs/gum/prof/libfrida-gum-prof-1.0.a.p/gumcallcountsampler.c.o
+[97/314] Linking static target subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a
+[98/314] Compiling C object subprojects/frida-gum/libs/gum/prof/libfrida-gum-prof-1.0.a.p/gummalloccountsampler.c.o
+[99/314] Compiling C object subprojects/frida-gum/libs/gum/prof/libfrida-gum-prof-1.0.a.p/gumsampler.c.o
+[100/314] Compiling C object subprojects/frida-gum/libs/gum/prof/libfrida-gum-prof-1.0.a.p/gumprofilereport.c.o
+[101/314] Compiling C object subprojects/frida-gum/libs/gum/prof/libfrida-gum-prof-1.0.a.p/gumprofiler.c.o
+[102/314] Compiling C object subprojects/frida-gum/libs/gum/prof/libfrida-gum-prof-1.0.a.p/gumwallclocksampler.c.o
+[103/314] Compiling C object subprojects/frida-gum/gum/libfrida-gum-1.0.a.p/backend-arm64_gumstalker-arm64.c.o
+[104/314] Compiling C object subprojects/frida-gum/libs/gum/prof/libfrida-gum-prof-1.0.a.p/gumcyclesampler-darwin.c.o
+[105/314] Compiling C object subprojects/frida-gum/libs/gum/prof/libfrida-gum-prof-1.0.a.p/gumbusycyclesampler-darwin.c.o
+[106/314] Linking static target subprojects/frida-gum/gum/libfrida-gum-1.0.a
+[107/314] Compiling C object subprojects/frida-gum/libs/gum/prof/libfrida-gum-prof-1.0.a.p/gumusertimesampler-darwin.c.o
+[108/314] Linking static target subprojects/frida-gum/libs/gum/prof/libfrida-gum-prof-1.0.a
+[109/314] Linking target subprojects/frida-gum/bindings/gumjs/quickcompile
+[110/314] Generating subprojects/frida-gum/bindings/gumjs/gumjs-runtime with a custom command
+[111/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-inspector-1.0.a.p/guminspectorserver.c.o
+[112/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_asset-location.c.o
+[113/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumjs.c.o
+[114/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumscript.c.o
+[115/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumscriptscheduler.c.o
+[116/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumscriptbackend.c.o
+[117/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumscripttask.c.o
+[118/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumffi.c.o
+[119/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumsourcemap.c.o
+[120/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gummemoryvfs.c.o
+[121/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickscriptbackend.c.o
+[122/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickscript.c.o
+[123/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumcmodule.c.o
+[124/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickobject.c.o
+[125/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickvalue.c.o
+[126/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickkernel.c.o
+[127/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickmemory.c.o
+[128/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickthread.c.o
+[129/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickprocess.c.o
+[130/314] Compiling C object subprojects/frida-core/tools/frida-resource-compiler.p/meson-generated_resource-compiler.c.o
+[131/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickfile.c.o
+[132/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickmodule.c.o
+[133/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickchecksum.c.o
+[134/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickstalker.c.o
+[135/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickinterceptor.c.o
+[136/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickeventsink.c.o
+[137/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickapiresolver.c.o
+[138/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquicksymbol.c.o
+[139/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickcmodule.c.o
+[140/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickcontrolflowgraph.c.o
+[141/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickinstruction.c.o
+[142/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickcore.c.o
+[143/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickcloak.c.o
+[144/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickcoderelocator.c.o
+[145/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickprofiler.c.o
+[146/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquicksampler.c.o
+[147/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickstream.c.o
+[148/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickcodewriter.c.o
+[149/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquicksocket.c.o
+[150/314] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumquickdatabase.c.o
+[151/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8scriptbackend.cpp.o
+[152/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8scope.cpp.o
+[153/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8object.cpp.o
+[154/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8script.cpp.o
+[155/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8value.cpp.o
+[156/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8kernel.cpp.o
+[157/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8memory.cpp.o
+[158/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8platform.cpp.o
+[159/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8process.cpp.o
+[160/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8thread.cpp.o
+[161/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8core.cpp.o
+[162/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8file.cpp.o
+[163/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8module.cpp.o
+[164/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8checksum.cpp.o
+[165/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8eventsink.cpp.o
+[166/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8apiresolver.cpp.o
+[167/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8interceptor.cpp.o
+[168/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8stalker.cpp.o
+[169/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8cmodule.cpp.o
+[170/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8symbol.cpp.o
+[171/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8controlflowgraph.cpp.o
+[172/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8instruction.cpp.o
+[173/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8coderelocator.cpp.o
+[174/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8cloak.cpp.o
+[175/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8profiler.cpp.o
+[176/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8codewriter.cpp.o
+[177/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8sampler.cpp.o
+[178/314] Linking static target subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-inspector-1.0.a
+[179/314] Linking target subprojects/frida-core/tools/frida-resource-compiler
+ld: warning: ignoring duplicate libraries: '-lresolv'
+[180/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8stream.cpp.o
+[181/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_channel.c.o
+[182/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8socket.cpp.o
+[183/314] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8database.cpp.o
+[184/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_service.c.o
+[185/314] Linking static target subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a
+[186/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_stream.c.o
+[187/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_rpc.c.o
+[188/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_dbus.c.o
+[189/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_promise.c.o
+[190/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_fs.c.o
+[191/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_p2p.c.o
+[192/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_buffer.c.o
+[193/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_value.c.o
+[194/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_xnu-syscalls_xnu-syscalls.c.o
+[195/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_posix.c.o
+[196/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_corefoundation.c.o
+[197/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/session-glue.c.o
+[198/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_socket.c.o
+[199/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/socket-glue.c.o
+[200/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/p2p-glue.c.o
+[201/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/buffer-glue.c.o
+[202/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/xnu-syscalls_xnu-syscalls-glue.c.o
+[203/314] Compiling Vala source ../subprojects/frida-core/lib/netif/tunnel-interface-observer.vala subprojects/frida-core/lib/base/frida-base-1.0.vapi
+[204/314] Compiling Vala source ../subprojects/frida-core/lib/pipe/pipe.vala subprojects/frida-core/lib/base/frida-base-1.0.vapi
+[205/314] Compiling C object subprojects/frida-core/lib/netif/libfrida-netif.a.p/meson-generated_tunnel-interface-observer.c.o
+[206/314] Compiling C object subprojects/frida-core/lib/pipe/libfrida-pipe.a.p/meson-generated_pipe.c.o
+[207/314] Linking static target subprojects/frida-core/lib/netif/libfrida-netif.a
+[208/314] Compiling Vala source ../subprojects/frida-core/lib/payload/process.vala ../subprojects/frida-core/lib/payload/base-agent-session.vala ../subprojects/frida-core/lib/payload/script-engine.vala ../subprojects/frida-core/lib/payload/portal-client.vala ../subprojects/frida-core/lib/payload/fork-monitor.vala ../subprojects/frida-core/lib/payload/spawn-monitor.vala ../subprojects/frida-core/lib/payload/thread-suspend-monitor.vala ../subprojects/frida-core/lib/payload/unwind-sitter.vala ../subprojects/frida-core/lib/payload/exit-monitor.vala ../subprojects/frida-core/lib/payload/cloak.vala ../subprojects/frida-core/lib/payload/fd-guard.vala ../subprojects/frida-core/lib/payload/fdt-padder.vala subprojects/frida-core/lib/base/frida-base-1.0.vapi
+[209/314] Compiling C object subprojects/frida-core/lib/pipe/libfrida-pipe.a.p/pipe-darwin.c.o
+[210/314] Linking static target subprojects/frida-core/lib/pipe/libfrida-pipe.a
+[211/314] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_process.c.o
+[212/314] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_session.c.o
+[213/314] Linking static target subprojects/frida-core/lib/base/libfrida-base-1.0.a
+[214/314] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_base-agent-session.c.o
+[215/314] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_script-engine.c.o
+[216/314] Generating subprojects/frida-core/src/darwin/agent/reportcrash/reportcrash.js with a custom command
+[217/314] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_fork-monitor.c.o
+[218/314] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_spawn-monitor.c.o
+[219/314] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_unwind-sitter.c.o
+[220/314] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_thread-suspend-monitor.c.o
+[221/314] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_portal-client.c.o
+[222/314] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_exit-monitor.c.o
+[223/314] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_cloak.c.o
+[224/314] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_fd-guard.c.o
+[225/314] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_fdt-padder.c.o
+[226/314] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/process-glue.c.o
+[227/314] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/spawn-monitor-glue.c.o
+[228/314] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/thread-suspend-monitor-glue.c.o
+[229/314] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/unwind-sitter-glue.c.o
+[230/314] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/libc-shim.c.o
+[231/314] Linking static target subprojects/frida-core/lib/payload/libfrida-payload-1.0.a
+[232/314] Compiling Vala source ../subprojects/frida-core/lib/agent/agent.vala subprojects/frida-core/lib/base/frida-base-1.0.vapi subprojects/frida-core/lib/pipe/frida-pipe.vapi subprojects/frida-core/lib/payload/frida-payload-1.0.vapi
+[233/314] Compiling Vala source ../subprojects/frida-core/lib/gadget/gadget.vala subprojects/frida-core/lib/base/frida-base-1.0.vapi subprojects/frida-core/lib/netif/frida-netif.vapi subprojects/frida-core/lib/payload/frida-payload-1.0.vapi
+[234/314] Compiling Vala source ../subprojects/frida-core/src/darwin/frida-helper-types.vala ../subprojects/frida-core/src/darwin/policy-softener.vala ../subprojects/frida-core/src/darwin/frida-helper-backend.vala subprojects/frida-core/lib/base/frida-base-1.0.vapi subprojects/frida-core/lib/pipe/frida-pipe.vapi
+[235/314] Compiling C++ object subprojects/frida-core/lib/agent/libfrida-agent-raw.dylib.p/dummy.cpp.o
+[236/314] Compiling C object subprojects/frida-core/lib/agent/libfrida-agent-raw.dylib.p/agent-glue.c.o
+[237/314] Compiling C object subprojects/frida-core/lib/gadget/libfrida-gadget-raw.dylib.p/gadget-glue.c.o
+[238/314] Generating subprojects/frida-core/src/darwin/agent/osanalytics/osanalytics.js with a custom command
+[239/314] Compiling C++ object subprojects/frida-core/lib/gadget/libfrida-gadget-raw.dylib.p/dummy.cpp.o
+[240/314] Generating subprojects/frida-core/src/frida-data-darwin with a custom command
+[241/314] Compiling Objective-C object subprojects/frida-core/lib/gadget/libfrida-gadget-raw.dylib.p/gadget-darwin.m.o
+[242/314] Compiling C object subprojects/frida-core/lib/agent/libfrida-agent-raw.dylib.p/meson-generated_agent.c.o
+[243/314] Compiling C object subprojects/frida-core/src/libfrida-helper-backend.a.p/meson-generated_darwin_policy-softener.c.o
+[244/314] Linking target subprojects/frida-core/lib/agent/libfrida-agent-raw.dylib
+ld: warning: ignoring duplicate libraries: '-lresolv'
+[245/314] Compiling C object subprojects/frida-core/src/libfrida-helper-backend.a.p/meson-generated_darwin_frida-helper-types.c.o
+[246/314] Compiling C object subprojects/frida-core/src/libfrida-helper-backend.a.p/darwin_policy-softener-glue.c.o
+[247/314] Generating subprojects/frida-core/lib/agent/frida-agent-modulated with a custom command
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/../subprojects/frida-core/tools/modulate.py:20: PendingDeprecationWarning: FileType is deprecated. Simply open files after parsing arguments.
+  parser.add_argument("input", metavar="/path/to/input/module", type=argparse.FileType("rb"))
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/../subprojects/frida-core/tools/modulate.py:481: ResourceWarning: unclosed file <_io.BufferedReader name='subprojects/frida-core/lib/agent/libfrida-agent-raw.dylib'>
+  main()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+[248/314] Generating subprojects/frida-core/lib/agent/frida-agent with a custom command
+[249/314] Compiling C object subprojects/frida-core/src/libfrida-helper-backend.a.p/darwin_policyd.c.o
+[250/314] Compiling C object subprojects/frida-core/src/libfrida-helper-backend.a.p/darwin_policyd-client.c.o
+[251/314] Compiling C object subprojects/frida-core/lib/gadget/libfrida-gadget-raw.dylib.p/meson-generated_gadget.c.o
+[252/314] Compiling C object subprojects/frida-core/src/libfrida-helper-backend.a.p/meson-generated_darwin_frida-helper-backend.c.o
+[253/314] Compiling C object subprojects/frida-core/src/libfrida-helper-backend.a.p/darwin_substituted-client.c.o
+[254/314] Compiling C object subprojects/frida-core/src/libfrida-helper-backend.a.p/darwin_substituted2-client.c.o
+[255/314] Compiling Vala source ../subprojects/frida-core/src/darwin/frida-helper-service.vala subprojects/frida-core/src/frida-helper-backend.vapi subprojects/frida-core/lib/base/frida-base-1.0.vapi subprojects/frida-core/lib/pipe/frida-pipe.vapi
+[256/314] Linking target subprojects/frida-core/lib/gadget/libfrida-gadget-raw.dylib
+ld: warning: ignoring duplicate libraries: '-lresolv'
+[257/314] Compiling Objective-C object subprojects/frida-core/src/libfrida-helper-backend.a.p/darwin_springboard.m.o
+[258/314] Compiling Objective-C object subprojects/frida-core/src/frida-helper-raw.p/darwin_frida-helper-service-glue.m.o
+[259/314] Generating subprojects/frida-core/src/frida-data-icons with a custom command
+[260/314] Compiling Objective-C object subprojects/frida-core/src/libfrida-helper-backend.a.p/darwin_frida-helper-backend-glue.m.o
+[261/314] Linking static target subprojects/frida-core/src/libfrida-helper-backend.a
+[262/314] Copying file subprojects/frida-core/src/api/GLib-2.0.gir
+[263/314] Copying file subprojects/frida-core/src/api/GObject-2.0.gir
+[264/314] Copying file subprojects/frida-core/src/api/Gio-2.0.gir
+[265/314] Generating subprojects/frida-core/lib/gadget/frida-gadget-modulated with a custom command
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/../subprojects/frida-core/tools/modulate.py:20: PendingDeprecationWarning: FileType is deprecated. Simply open files after parsing arguments.
+  parser.add_argument("input", metavar="/path/to/input/module", type=argparse.FileType("rb"))
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/../subprojects/frida-core/tools/modulate.py:481: ResourceWarning: unclosed file <_io.BufferedReader name='subprojects/frida-core/lib/gadget/libfrida-gadget-raw.dylib'>
+  main()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+[266/314] Generating subprojects/frida-core/lib/gadget/frida-gadget with a custom command
+[267/314] Compiling C object subprojects/frida-core/src/frida-helper-raw.p/meson-generated_darwin_frida-helper-service.c.o
+[268/314] Linking target subprojects/frida-core/src/frida-helper-raw
+ld: warning: ignoring duplicate libraries: '-lresolv'
+[269/314] Generating subprojects/frida-core/src/frida-helper with a custom command
+[270/314] Compiling Vala source subprojects/frida-core/src/frida-data-darwin.vapi subprojects/frida-core/src/frida-data-icons.vapi ../subprojects/frida-core/src/frida.vala ../subprojects/frida-core/src/package-manager.vala ../subprojects/frida-core/src/control-service.vala ../subprojects/frida-core/src/portal-service.vala ../subprojects/frida-core/src/host-session-service.vala ../subprojects/frida-core/src/agent-container.vala ../subprojects/frida-core/src/gdb.vala ../subprojects/frida-core/src/system.vala ../subprojects/frida-core/src/file-monitor.vala ../subprojects/frida-core/src/async-task.vala ../subprojects/frida-core/src/darwin/darwin-host-session.vala ../subprojects/frida-core/src/darwin/fruitjector.vala ../subprojects/frida-core/src/darwin/frida-helper-process.vala ../subprojects/frida-core/src/socket/socket-host-session.vala ../subprojects/frida-core/src/compiler/compiler.vala subprojects/frida-core/src/frida-helper-backend.vapi subprojects/frida-core/lib/base/frida-base-1.0.vapi subprojects/frida-core/lib/netif/frida-netif.vapi subprojects/frida-core/lib/pipe/frida-pipe.vapi
+[271/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_.._frida-data-darwin-blob.S.o
+[272/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_.._frida-data-icons-blob.S.o
+[273/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_.._frida-data-icons.c.o
+[274/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_.._frida-data-darwin.c.o
+[275/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_control-service.c.o
+[276/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_portal-service.c.o
+[277/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_agent-container.c.o
+[278/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_package-manager.c.o
+[279/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_host-session-service.c.o
+[280/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_system.c.o
+[281/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_file-monitor.c.o
+[282/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_async-task.c.o
+[283/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_gdb.c.o
+[284/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_frida.c.o
+[285/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_darwin_fruitjector.c.o
+[286/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_compiler_compiler.c.o
+[287/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_socket_socket-host-session.c.o
+[288/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_darwin_frida-helper-process.c.o
+[289/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/frida-glue.c.o
+[290/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_darwin_darwin-host-session.c.o
+[291/314] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/compiler_backend-glue.c.o
+[292/314] Compiling Objective-C object subprojects/frida-core/src/libfrida-core.a.p/darwin_darwin-host-session-glue.m.o
+[293/314] Compiling Vala source ../subprojects/frida-core/server/server.vala subprojects/frida-core/src/frida-core.vapi subprojects/frida-core/src/frida-helper-backend.vapi subprojects/frida-core/lib/base/frida-base-1.0.vapi subprojects/frida-core/lib/netif/frida-netif.vapi subprojects/frida-core/lib/pipe/frida-pipe.vapi
+[294/314] Compiling C object subprojects/frida-core/server/frida-server-raw.p/server-glue.c.o
+[295/314] Compiling Objective-C object subprojects/frida-core/src/libfrida-core.a.p/darwin_icon-helpers.m.o
+[296/314] Compiling Objective-C object subprojects/frida-core/src/libfrida-core.a.p/darwin_system-darwin.m.o
+[297/314] Linking static target subprojects/frida-core/src/libfrida-core.a
+[298/314] Compiling Objective-C object subprojects/frida-core/server/frida-server-raw.p/server-darwin.m.o
+[299/314] Compiling C object subprojects/frida-core/server/frida-server-raw.p/server-ios-tvos.c.o
+[300/314] Generating subprojects/frida-core/src/api/frida-core-library with a custom command
+[301/314] Compiling C object subprojects/frida-core/server/frida-server-raw.p/meson-generated_server.c.o
+[302/314] Linking target subprojects/frida-core/server/frida-server-raw
+ld: warning: ignoring duplicate libraries: '-lresolv'
+[303/314] Compiling Vala source ../subprojects/frida-core/inject/inject.vala subprojects/frida-core/src/frida-core.vapi subprojects/frida-core/src/frida-helper-backend.vapi subprojects/frida-core/lib/base/frida-base-1.0.vapi subprojects/frida-core/lib/netif/frida-netif.vapi subprojects/frida-core/lib/pipe/frida-pipe.vapi
+[304/314] Generating subprojects/frida-core/server/frida-server with a custom command
+[305/314] Compiling C object subprojects/frida-core/inject/frida-inject-raw.p/inject-glue.c.o
+[306/314] Compiling C object subprojects/frida-core/inject/frida-inject-raw.p/meson-generated_inject.c.o
+[307/314] Linking target subprojects/frida-core/inject/frida-inject-raw
+ld: warning: ignoring duplicate libraries: '-lresolv'
+[308/314] Generating subprojects/frida-core/inject/frida-inject with a custom command
+[309/314] Generating subprojects/frida-core/src/api/frida-core-api with a custom command
+[310/314] Generating subprojects/frida-core/compat/arch-support with a custom command
+[311/314] Generating subprojects/frida-core/src/frida-helper-universal with a custom command
+[312/314] Generating subprojects/frida-core/server/frida-server-universal with a custom command
+[313/314] Generating subprojects/frida-core/lib/gadget/frida-gadget-universal with a custom command
+[314/314] Generating subprojects/frida-core/lib/agent/frida-agent-universal with a custom command
+INFO: autodetecting backend as ninja
+INFO: calculating backend command to run: /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/toolchain-macos-arm64/bin/ninja
+ninja: Entering directory `/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build'
+ninja: no work to do.
+Installing subprojects/frida-gum/gum/gumenumtypes.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing subprojects/frida-gum/gum/libfrida-gum-1.0.a to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib
+Installing subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib
+Installing subprojects/frida-gum/libs/gum/prof/libfrida-gum-prof-1.0.a to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib
+Installing subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib
+Installing subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-inspector-1.0.a to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib
+Installing subprojects/frida-core/lib/base/libfrida-base-1.0.a to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib
+Installing subprojects/frida-core/lib/base/frida-base.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0
+Installing subprojects/frida-core/lib/base/frida-base-1.0.vapi to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing subprojects/frida-core/lib/payload/libfrida-payload-1.0.a to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib
+Installing subprojects/frida-core/lib/payload/frida-payload.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0
+Installing subprojects/frida-core/lib/payload/frida-payload-1.0.vapi to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing subprojects/frida-core/lib/agent/frida-agent.dylib to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/frida-1.0
+Installing subprojects/frida-core/lib/gadget/frida-gadget.dylib to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/frida-1.0
+Installing subprojects/frida-core/src/frida-helper to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/frida-1.0
+Installing subprojects/frida-core/src/api/frida-core.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0
+Installing subprojects/frida-core/src/api/Frida-1.0.gir to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/gir-1.0
+Installing subprojects/frida-core/src/api/frida-core-1.0.vapi to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing subprojects/frida-core/src/api/frida-core-1.0.deps to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing subprojects/frida-core/src/api/GLib-2.0.gir to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/gir-1.0
+Installing subprojects/frida-core/src/api/GObject-2.0.gir to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/gir-1.0
+Installing subprojects/frida-core/src/api/Gio-2.0.gir to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/gir-1.0
+Installing subprojects/frida-core/src/api/libfrida-core-1.0.a to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib
+Installing subprojects/frida-core/server/frida-server-arm64e to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/bin
+Installing subprojects/frida-core/server/frida-server to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/bin
+Installing subprojects/frida-core/inject/frida-inject to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/bin
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gum.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumapiresolver.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumbacktracer.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumcontrolflowgraph.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumcloak.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumcodeallocator.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumcodesegment.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumdarwingrafter.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumdarwinmodule.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumdefs.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumelfmodule.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumevent.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumeventsink.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumexceptor.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumunwindbroker.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumfunction.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumheapapi.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/guminterceptor.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/guminvocationcontext.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/guminvocationlistener.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumkernel.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumlibc.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummemory.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummemoryaccessmonitor.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummemorymap.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummetalarray.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummetalhash.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummodule.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummoduleapiresolver.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummodulemap.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummoduleregistry.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumprintf.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumprocess.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumreturnaddress.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumspinlock.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumstalker.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumswiftapiresolver.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumsymbolutil.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumsysinternals.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumthreadregistry.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumtls.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/backend-darwin/include/gum/gumdarwin.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/backend-darwin/include/gum/gumdarwinbacktracer.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/backend-darwin/include/gum/gumdarwinsymbolicator.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/backend-darwin/include/gum/gumdarwinmapper.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/backend-darwin/include/gum/gumdarwinmoduleresolver.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-x86/gumx86writer.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-x86
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-x86/gumx86relocator.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-x86
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-x86/gumx86reader.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-x86
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-arm/gumarmwriter.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-arm
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-arm/gumarmrelocator.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-arm
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-arm/gumthumbwriter.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-arm
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-arm/gumthumbrelocator.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-arm
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-arm/gumarmreg.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-arm
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-arm64/gumarm64writer.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-arm64
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-arm64/gumarm64relocator.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-arm64
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-arm64/gumarm64backtracer.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-arm64
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-arm64/gumarm64reader.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-arm64
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-mips/gummipswriter.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-mips
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-mips/gummipsrelocator.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-mips
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/gum-heap.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/gum-prof.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/heap/gumallocationblock.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/heap
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/heap/gumallocationgroup.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/heap
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/heap/gumallocationtracker.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/heap
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/heap/gumallocatorprobe.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/heap
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/heap/gumboundschecker.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/heap
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/heap/gumcobject.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/heap
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/heap/gumcobjecttracker.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/heap
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/heap/guminstancetracker.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/heap
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/heap/gumpagepool.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/heap
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/heap/gumsanitychecker.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/heap
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/prof/gumbusycyclesampler.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/prof
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/prof/gumcallcountsampler.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/prof
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/prof/gumcyclesampler.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/prof
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/prof/gummalloccountsampler.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/prof
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/prof/gumprofiler.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/prof
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/prof/gumprofilereport.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/prof
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/prof/gumsampler.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/prof
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/prof/gumusertimesampler.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/prof
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/prof/gumwallclocksampler.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/prof
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/bindings/gumjs/gumjs.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gumjs
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/bindings/gumjs/gumscript.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gumjs
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/bindings/gumjs/gumscriptbackend.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gumjs
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gumjs
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/bindings/gumjs/guminspectorserver.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gumjs
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/meson-private/frida-gum-1.0.pc to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/pkgconfig
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/meson-private/frida-gum-heap-1.0.pc to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/pkgconfig
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/meson-private/frida-gum-prof-1.0.pc to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/pkgconfig
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/meson-private/frida-gumjs-1.0.pc to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/pkgconfig
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/meson-private/frida-gumjs-inspector-1.0.pc to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/pkgconfig
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/vapi/frida-gum-1.0.vapi to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/vapi/frida-gum-heap-1.0.vapi to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/vapi/frida-gum-darwin-1.0.vapi to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/vapi/frida-gumjs-1.0.vapi to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/vapi/frida-gumjs-inspector-1.0.vapi to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/meson-private/frida-base-1.0.pc to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/pkgconfig
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/meson-private/frida-payload-1.0.pc to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/pkgconfig
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/meson-private/frida-core-1.0.pc to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/pkgconfig
+[0;32m[build][0m server: /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/bin/frida-server
+[0;32m[build][0m agent:  /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/frida-1.0/frida-agent.dylib
+[0;32m[build][0m server slices: arm64 arm64e
+[0;32m[build][0m agent  slices: arm64 arm64e
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/bin/frida-server: replacing existing signature
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/bin/frida-server: signed Mach-O universal (arm64e arm64) [frida-server-555549443bea54b957ef3d60a7e8f6949bd3056e]
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/frida-1.0/frida-agent.dylib: replacing existing signature
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/frida-1.0/frida-agent.dylib: signed Mach-O universal (arm64e arm64) [frida-agent-55554944ecb4f3b6532a3662a33d6ca428ed6162]
+[0;32m[build][0m codesign done
+dpkg-deb: building package 're.frida.server' in '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/out/frida_17.17.0_iphoneos-arm64e.deb'.
+dpkg-deb: building package 're.frida.server' in '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/out/frida_17.17.0_iphoneos-arm64e.deb'.
+dpkg-deb: building package 're.frida.server' in '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/out/frida_17.17.0_iphoneos-arm64e-roothide.deb'.
+dpkg-deb: building package 're.frida.server' in '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/out/frida_17.17.0_iphoneos-arm64e-roothide.deb'.
+[0;32m[build][0m packaged (rootless /var/jb): /Users/runner/work/frida-ios-stealth/frida-ios-stealth/out/frida_17.17.0_iphoneos-arm64e.deb
+[0;32m[build][0m packaged (roothide):         /Users/runner/work/frida-ios-stealth/frida-ios-stealth/out/frida_17.17.0_iphoneos-arm64e-roothide.deb
+total 65560
+drwxr-xr-x   5 runner  staff       160 Aug 19 09:16 .
+drwxr-xr-x  15 runner  staff       480 Aug 19 09:16 ..
+-rw-r--r--   1 runner  staff         8 Aug 19 09:16 FRIDA_VERSION.txt
+-rw-r--r--   1 runner  staff  16609316 Aug 19 09:16 frida_17.17.0_iphoneos-arm64e-roothide.deb
+-rw-r--r--   1 runner  staff  16608940 Aug 19 09:16 frida_17.17.0_iphoneos-arm64e.deb
+=== rootless deb ===
+ new Debian package, version 2.0.
+ size 16608940 bytes: control archive=628 bytes.
+     377 bytes,    13 lines      control
+     244 bytes,    11 lines   *  extrainst_           #!/bin/sh
+     140 bytes,     7 lines   *  prerm                #!/bin/sh
+ Package: re.frida.server
+ Name: Frida
+ Version: 17.17.0
+ Priority: optional
+ Size: 16781312
+ Installed-Size: 53544
+ Architecture: iphoneos-arm64e
+ Description: Observe and reprogram running programs.
+ Homepage: https://frida.re/
+ Maintainer: Ole Andre Vadla Ravnas <oleavr@nowsecure.com>
+ Author: Frida Developers <oleavr@nowsecure.com>
+ Section: Development
+ Conflicts: re.frida.server64
+drwx------ root/root         0 2026-08-19 09:16 ./
+drwxr-xr-x root/root         0 2026-08-19 09:16 ./var/
+drwxr-xr-x root/root         0 2026-08-19 09:16 ./var/jb/
+drwxr-xr-x root/root         0 2026-08-19 09:16 ./var/jb/Library/
+drwxr-xr-x root/root         0 2026-08-19 09:16 ./var/jb/Library/LaunchDaemons/
+-rw-r--r-- root/root       655 2026-08-19 09:16 ./var/jb/Library/LaunchDaemons/re.frida.server.plist
+drwxr-xr-x root/root         0 2026-08-19 09:16 ./var/jb/usr/
+drwxr-xr-x root/root         0 2026-08-19 09:16 ./var/jb/usr/lib/
+drwxr-xr-x root/root         0 2026-08-19 09:16 ./var/jb/usr/lib/frida-1.0/
+-rwxr-xr-x root/root  39170400 2026-08-19 09:16 ./var/jb/usr/lib/frida-1.0/frida-agent.dylib
+drwxr-xr-x root/root         0 2026-08-19 09:16 ./var/jb/usr/sbin/
+-rwxr-xr-x root/root  15647984 2026-08-19 09:16 ./var/jb/usr/sbin/frida-server
+=== roothide deb ===
+ new Debian package, version 2.0.
+ size 16609316 bytes: control archive=684 bytes.
+     388 bytes,    13 lines      control
+     388 bytes,     8 lines   *  extrainst_           #!/bin/sh
+     290 bytes,     7 lines   *  prerm                #!/bin/sh
+ Package: re.frida.server
+ Name: Frida
+ Version: 17.17.0
+ Priority: optional
+ Size: 16781312
+ Installed-Size: 53544
+ Architecture: iphoneos-arm64e
+ Description: Observe and reprogram running programs. (roothide build)
+ Homepage: https://frida.re/
+ Maintainer: Frida Developers <oleavr@nowsecure.com>
+ Author: Frida Developers <oleavr@nowsecure.com>
+ Section: Development
+ Conflicts: re.frida.server64
+drwx------ root/root         0 2026-08-19 09:16 ./
+drwxr-xr-x root/root         0 2026-08-19 09:16 ./Library/
+drwxr-xr-x root/root         0 2026-08-19 09:16 ./Library/LaunchDaemons/
+-rw-r--r-- root/root       641 2026-08-19 09:16 ./Library/LaunchDaemons/re.frida.server.plist
+drwxr-xr-x root/root         0 2026-08-19 09:16 ./usr/
+drwxr-xr-x root/root         0 2026-08-19 09:16 ./usr/lib/
+drwxr-xr-x root/root         0 2026-08-19 09:16 ./usr/lib/frida-1.0/
+-rwxr-xr-x root/root  39170400 2026-08-19 09:16 ./usr/lib/frida-1.0/frida-agent.dylib
+drwxr-xr-x root/root         0 2026-08-19 09:16 ./usr/sbin/
+-rwxr-xr-x root/root  15647984 2026-08-19 09:16 ./usr/sbin/frida-server
