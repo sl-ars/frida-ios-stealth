@@ -70,18 +70,24 @@ rm -rf "${WORK}/dist"
 DESTDIR="${WORK}/dist" gmake -j"${NPROC}" install
 
 # --- locate outputs ----------------------------------------------------------
+# frida 17.x installs the agent under lib/frida-1.0/ (older frida used lib/frida/).
+# Resolve both, with a find fallback so a future layout change does not break us.
 SERVER="${WORK}/dist/var/jb/usr/bin/frida-server"
-AGENT="${WORK}/dist/var/jb/usr/lib/frida/frida-agent.dylib"
-if [ ! -f "${SERVER}" ]; then
-  err "frida-server not found at ${SERVER}"
+AGENT="${WORK}/dist/var/jb/usr/lib/frida-1.0/frida-agent.dylib"
+[ -f "${SERVER}" ] || SERVER="$(find "${WORK}/dist" -path '*/bin/frida-server' -type f | head -1)"
+[ -f "${AGENT}" ]  || AGENT="$(find "${WORK}/dist" -name 'frida-agent.dylib' -type f | head -1)"
+if [ -z "${SERVER}" ] || [ ! -f "${SERVER}" ]; then
+  err "frida-server not found under dist/"
   find "${WORK}/dist" \( -name 'frida-server' -o -name 'frida-agent.dylib' \) | sed 's/^/  found: /'
   exit 2
 fi
-if [ ! -f "${AGENT}" ]; then
-  err "frida-agent.dylib not found at ${AGENT}"
+if [ -z "${AGENT}" ] || [ ! -f "${AGENT}" ]; then
+  err "frida-agent.dylib not found under dist/"
   find "${WORK}/dist" -name 'frida-agent.dylib' | sed 's/^/  found: /'
   exit 2
 fi
+log "server: ${SERVER}"
+log "agent:  ${AGENT}"
 
 log "server slices: $(lipo -archs "${SERVER}" 2>/dev/null)"
 log "agent  slices: $(lipo -archs "${AGENT}" 2>/dev/null)"

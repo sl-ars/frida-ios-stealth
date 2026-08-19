@@ -6,7 +6,7 @@
 #
 # Usage: FRIDA_VERSION=x.y.z package-server-fruity.sh <arch> <prefix> <output.deb>
 #   arch   = e.g. iphoneos-arm64e
-#   prefix = tree containing usr/bin/frida-server and usr/lib/frida/frida-agent.dylib
+#   prefix = tree containing usr/bin/frida-server and usr/lib/frida*/frida-agent.dylib
 #
 
 if [ -z "$FRIDA_VERSION" ]; then
@@ -28,11 +28,13 @@ if [ ! -f "$executable" ]; then
   exit 4
 fi
 
-agent=$prefix/usr/lib/frida/frida-agent.dylib
-if [ ! -f "$agent" ]; then
-  echo "$agent: not found" > /dev/stderr
+# frida 17.x installs the agent under lib/frida-1.0/ ; older frida used lib/frida/.
+agent="$(ls "$prefix"/usr/lib/frida*/frida-agent.dylib 2>/dev/null | head -1)"
+if [ -z "$agent" ] || [ ! -f "$agent" ]; then
+  echo "frida-agent.dylib: not found under $prefix/usr/lib/frida*" > /dev/stderr
   exit 5
 fi
+agent_libdir="$(basename "$(dirname "$agent")")"
 
 tmpdir="$(mktemp -d /tmp/package-server.XXXXXX)"
 
@@ -40,9 +42,9 @@ mkdir -p "$tmpdir/var/jb/usr/sbin/"
 cp "$executable" "$tmpdir/var/jb/usr/sbin/frida-server"
 chmod 755 "$tmpdir/var/jb/usr/sbin/frida-server"
 
-mkdir -p "$tmpdir/var/jb/usr/lib/frida/"
-cp "$agent" "$tmpdir/var/jb/usr/lib/frida/frida-agent.dylib"
-chmod 755 "$tmpdir/var/jb/usr/lib/frida/frida-agent.dylib"
+mkdir -p "$tmpdir/var/jb/usr/lib/$agent_libdir/"
+cp "$agent" "$tmpdir/var/jb/usr/lib/$agent_libdir/frida-agent.dylib"
+chmod 755 "$tmpdir/var/jb/usr/lib/$agent_libdir/frida-agent.dylib"
 
 mkdir -p "$tmpdir/var/jb/Library/LaunchDaemons/"
 cat >"$tmpdir/var/jb/Library/LaunchDaemons/re.frida.server.plist" <<EOF
